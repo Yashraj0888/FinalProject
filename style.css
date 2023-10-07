@@ -73,3 +73,17 @@ option{
 .btn:hover{
     background:linear-gradient(to right,#616161,#9bc5c3)
 }
+
+@media (max-width:320px){
+
+    select,input,button {
+        border: 2px solid cornflowerblue;
+        background-color: transparent;
+        color:#FFEBCD;
+        font-weight: bold;
+    }
+    #bhk{
+        color: black;
+    }
+
+}
