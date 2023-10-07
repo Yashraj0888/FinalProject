@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Poppins', sans-serif;
+    text-align: center;
+   
+   
+}
+h1{
+    font-size: 40px;
+}
+body{
+      background-image: url(building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+select,input,button {
+    border: 2px solid cornflowerblue;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+option{
+    background-color: transparent;
+    
+}
+#container{
+     
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+  
+}
+
+.from-container{  
+    margin-top: 50px;    
+}
+.input{
+    
+    padding: 1.5vh;
+    border-radius: 20px;
+}
+.input::placeholder{
+    color: black;
+}
+
+#bhk{
+    margin: 10vh;
+    padding: 1.5vh;
+    border-radius: 20px;
+     
+}
+    
+#bath{
+    padding: 1.5vh;
+    border-radius: 20px;
+}
+
+#loc{
+    margin: 10vh;
+    padding: 1.5vh;
+    border-radius: 20px;
+}
+
+.btn{
+    padding: 1.5vh;
+    border-radius: 20px;
+}
+.btn:hover{
+    background:linear-gradient(to right,#616161,#9bc5c3)
+}
