@@ -1,5 +1,5 @@
 const btnn=document.querySelector(".btn");
-btnn.addEventListener('click',()=>{
+btnn.addEventListener('click',(event)=>{
     event.preventDefault();
     let container = document.getElementById("container");
     let paragraph = document.createElement("h1");
