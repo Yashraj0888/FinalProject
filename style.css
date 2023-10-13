@@ -12,7 +12,7 @@ h1{
     font-size: 40px;
 }
 body{
-      background-image: url(building.jpg);
+    background-image: url(building.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
